@@ -1,33 +1,701 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="phoi_ReaScripts" commit="58a3e39ba95bd0f35846aa1f39aa4cb2574295e1">
+<index version="1" name="phoi_ReaScripts" commit="253bc81a0f3de99579dbad661f8d504ff291752c">
+  <category name="Automation">
+    <reapack name="phoi_Toggle selected tracks between automation trim-read and latch preview.lua" type="script" desc="phoi_Toggle selected tracks between automation trim-read and latch preview">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Automation/phoi_Toggle%20selected%20tracks%20between%20automation%20trim-read%20and%20latch%20preview.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Toggle selected tracks between automation trim-read and latch.lua" type="script" desc="phoi_Toggle selected tracks between automation trim-read and latch">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Automation/phoi_Toggle%20selected%20tracks%20between%20automation%20trim-read%20and%20latch.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Toggle selected tracks between automation trim-read and read.lua" type="script" desc="phoi_Toggle selected tracks between automation trim-read and read">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Automation/phoi_Toggle%20selected%20tracks%20between%20automation%20trim-read%20and%20read.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Toggle selected tracks between automation trim-read and touch.lua" type="script" desc="phoi_Toggle selected tracks between automation trim-read and touch">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Automation/phoi_Toggle%20selected%20tracks%20between%20automation%20trim-read%20and%20touch.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Toggle selected tracks between automation trim-read and write.lua" type="script" desc="phoi_Toggle selected tracks between automation trim-read and write">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Automation/phoi_Toggle%20selected%20tracks%20between%20automation%20trim-read%20and%20write.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Edit cursor">
+    <reapack name="phoi_Go to end of time selection or selected items.lua" type="script" desc="phoi_Go to end of time selection or selected items">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Edit%20cursor/phoi_Go%20to%20end%20of%20time%20selection%20or%20selected%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Go to start of time selection or selected items.lua" type="script" desc="phoi_Go to start of time selection or selected items">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Edit%20cursor/phoi_Go%20to%20start%20of%20time%20selection%20or%20selected%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Move edit cursor to first of selected items.lua" type="script" desc="phoi_Move edit cursor to first of selected items">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Edit%20cursor/phoi_Move%20edit%20cursor%20to%20first%20of%20selected%20items.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Envelope">
+    <reapack name="phoi_Select next envelope and track of that envelope.lua" type="script" desc="phoi_Select next envelope and track of that envelope">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Envelope/phoi_Select%20next%20envelope%20and%20track%20of%20that%20envelope.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Select previous envelope and track of that envelope.lua" type="script" desc="phoi_Select previous envelope and track of that envelope">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Envelope/phoi_Select%20previous%20envelope%20and%20track%20of%20that%20envelope.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Toggle track width envelope visible.lua" type="script" desc="phoi_Toggle track width envelope visible">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Envelope/phoi_Toggle%20track%20width%20envelope%20visible.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="FX">
+    <reapack name="phoi_Toggle floating window open for selected items' take FX slot _.lua" type="script" desc="phoi_Toggle floating window open for selected items' take FX slot _">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main" file="phoi_Toggle floating window open for selected items' take FX slot 1.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/FX/phoi_Toggle%20floating%20window%20open%20for%20selected%20items'%20take%20FX%20slot%20_.lua</source>
+        <source main="main" file="phoi_Toggle floating window open for selected items' take FX slot 2.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/FX/phoi_Toggle%20floating%20window%20open%20for%20selected%20items'%20take%20FX%20slot%20_.lua</source>
+        <source main="main" file="phoi_Toggle floating window open for selected items' take FX slot 3.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/FX/phoi_Toggle%20floating%20window%20open%20for%20selected%20items'%20take%20FX%20slot%20_.lua</source>
+        <source main="main" file="phoi_Toggle floating window open for selected items' take FX slot 4.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/FX/phoi_Toggle%20floating%20window%20open%20for%20selected%20items'%20take%20FX%20slot%20_.lua</source>
+        <source main="main" file="phoi_Toggle floating window open for selected items' take FX slot 5.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/FX/phoi_Toggle%20floating%20window%20open%20for%20selected%20items'%20take%20FX%20slot%20_.lua</source>
+        <source main="main" file="phoi_Toggle floating window open for selected items' take FX slot 6.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/FX/phoi_Toggle%20floating%20window%20open%20for%20selected%20items'%20take%20FX%20slot%20_.lua</source>
+        <source main="main" file="phoi_Toggle floating window open for selected items' take FX slot 7.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/FX/phoi_Toggle%20floating%20window%20open%20for%20selected%20items'%20take%20FX%20slot%20_.lua</source>
+        <source main="main" file="phoi_Toggle floating window open for selected items' take FX slot 8.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/FX/phoi_Toggle%20floating%20window%20open%20for%20selected%20items'%20take%20FX%20slot%20_.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Group">
+    <reapack name="phoi_Extend item under mouse to overlap all of its group.lua" type="script" desc="phoi_Extend item under mouse to overlap all of its group">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Group/phoi_Extend%20item%20under%20mouse%20to%20overlap%20all%20of%20its%20group.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Extend selected item to overlap all of its group.lua" type="script" desc="phoi_Extend selected item to overlap all of its group">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Group/phoi_Extend%20selected%20item%20to%20overlap%20all%20of%20its%20group.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Insert empty group item on folder track from selected items or time selection.lua" type="script" desc="phoi_Insert empty group item on folder track from selected items or time selection">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Group/phoi_Insert%20empty%20group%20item%20on%20folder%20track%20from%20selected%20items%20or%20time%20selection.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Item">
+    <reapack name="phoi_Move item left edge to previous item end.lua" type="script" desc="phoi_Move item left edge to previous item end">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Item/phoi_Move%20item%20left%20edge%20to%20previous%20item%20end.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Move item right edge to next item start.lua" type="script" desc="phoi_Move item right edge to next item start">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Item/phoi_Move%20item%20right%20edge%20to%20next%20item%20start.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Move snap offset of selected items to the max peak value.lua" type="script" desc="phoi_Move snap offset of selected items to the max peak value">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Item/phoi_Move%20snap%20offset%20of%20selected%20items%20to%20the%20max%20peak%20value.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Normalize loudness of selected items with common gain per track and maximum peak value.lua" type="script" desc="phoi_Normalize loudness of selected items with common gain per track and maximum peak value">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Item/phoi_Normalize%20loudness%20of%20selected%20items%20with%20common%20gain%20per%20track%20and%20maximum%20peak%20value.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Rename item with filepath and full name from input.lua" type="script" desc="phoi_Rename item with filepath and full name from input">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Item/phoi_Rename%20item%20with%20filepath%20and%20full%20name%20from%20input.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Reposition items - advanced.lua" type="script" desc="phoi_Reposition items - advanced">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Item/phoi_Reposition%20items%20-%20advanced.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Select only mono items on selected tracks.lua" type="script" desc="phoi_Select only mono items on selected tracks">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Item/phoi_Select%20only%20mono%20items%20on%20selected%20tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Smart toggle items locked.lua" type="script" desc="phoi_Smart toggle items locked">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Item/phoi_Smart%20toggle%20items%20locked.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Trim left edge of selected items to edit cursor without changing fade-in end times.lua" type="script" desc="phoi_Trim left edge of selected items to edit cursor without changing fade-in end times">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Item/phoi_Trim%20left%20edge%20of%20selected%20items%20to%20edit%20cursor%20without%20changing%20fade-in%20end%20times.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Trim left edge of selected items to previous item end.lua" type="script" desc="phoi_Trim left edge of selected items to previous item end">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Item/phoi_Trim%20left%20edge%20of%20selected%20items%20to%20previous%20item%20end.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Trim right edge of selected items to edit cursor without changing fade-out start times.lua" type="script" desc="phoi_Trim right edge of selected items to edit cursor without changing fade-out start times">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Item/phoi_Trim%20right%20edge%20of%20selected%20items%20to%20edit%20cursor%20without%20changing%20fade-out%20start%20times.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Trim right edge of selected items to next item start.lua" type="script" desc="phoi_Trim right edge of selected items to next item start">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Item/phoi_Trim%20right%20edge%20of%20selected%20items%20to%20next%20item%20start.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Media Explorer">
+    <reapack name="phoi_Refresh all databases in Media Explorer.lua" type="script" desc="phoi_Refresh all databases in Media Explorer">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="mediaexplorer">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Media%20Explorer/phoi_Refresh%20all%20databases%20in%20Media%20Explorer.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Mixer">
+    <reapack name="phoi_Smart toggle mixer fx, parameters, and sends.lua" type="script" desc="phoi_Smart toggle mixer fx, parameters, and sends">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Mixer/phoi_Smart%20toggle%20mixer%20fx,%20parameters,%20and%20sends.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Options">
+    <reapack name="phoi_Smart toggle auto-scroll - playback and recording.lua" type="script" desc="phoi_Smart toggle auto-scroll - playback and recording">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Options/phoi_Smart%20toggle%20auto-scroll%20-%20playback%20and%20recording.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Project">
+    <reapack name="phoi_Decrease master playrate by half an octave.lua" type="script" desc="phoi_Decrease master playrate by half an octave">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Project/phoi_Decrease%20master%20playrate%20by%20half%20an%20octave.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Increase master playrate by half an octave.lua" type="script" desc="phoi_Increase master playrate by half an octave">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Project/phoi_Increase%20master%20playrate%20by%20half%20an%20octave.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Render">
+    <reapack name="phoi_Create sampled notes from selected midi item.lua" type="script" desc="phoi_Create sampled notes from selected midi item">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Render/phoi_Create%20sampled%20notes%20from%20selected%20midi%20item.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Render/phoi_Render area of selected tracks, muting items">
+    <reapack name="phoi_Render selected area of tracks, muting items.lua" type="script" desc="phoi_Render selected area of tracks, muting items">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.01" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source>https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Render/phoi_Render%20area%20of%20selected%20tracks,%20muting%20items/phoi_Render%20selected%20area%20of%20tracks,%20muting%20items.lua</source>
+        <source main="main" file="phoi_Render selected area of tracks, muting items - stereo, pre-fader.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Render/phoi_Render%20area%20of%20selected%20tracks,%20muting%20items/phoi_Render%20selected%20area%20of%20tracks,%20muting%20items%20-%20stereo,%20pre-fader.lua</source>
+        <source main="main" file="phoi_Render selected area of tracks, muting items - stereo, post-fader.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Render/phoi_Render%20area%20of%20selected%20tracks,%20muting%20items/phoi_Render%20selected%20area%20of%20tracks,%20muting%20items%20-%20stereo,%20post-fader.lua</source>
+        <source main="main" file="phoi_Render selected area of tracks, muting items - multichannel, pre-fader.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Render/phoi_Render%20area%20of%20selected%20tracks,%20muting%20items/phoi_Render%20selected%20area%20of%20tracks,%20muting%20items%20-%20multichannel,%20pre-fader.lua</source>
+        <source main="main" file="phoi_Render selected area of tracks, muting items - multichannel, post-fader.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Render/phoi_Render%20area%20of%20selected%20tracks,%20muting%20items/phoi_Render%20selected%20area%20of%20tracks,%20muting%20items%20-%20multichannel,%20post-fader.lua</source>
+        <source main="main" file="phoi_Render selected area of tracks, muting items - mono, pre-fader.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Render/phoi_Render%20area%20of%20selected%20tracks,%20muting%20items/phoi_Render%20selected%20area%20of%20tracks,%20muting%20items%20-%20mono,%20pre-fader.lua</source>
+        <source main="main" file="phoi_Render selected area of tracks, muting items - mono, post-fader.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Render/phoi_Render%20area%20of%20selected%20tracks,%20muting%20items/phoi_Render%20selected%20area%20of%20tracks,%20muting%20items%20-%20mono,%20post-fader.lua</source>
+        <source main="main" file="phoi_Render stereo mixdown of selected area of tracks, muting items.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Render/phoi_Render%20area%20of%20selected%20tracks,%20muting%20items/phoi_Render%20stereo%20mixdown%20of%20selected%20area%20of%20tracks,%20muting%20items.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Time selection">
+    <reapack name="phoi_Smart extend time selection left from edit cursor.lua" type="script" desc="phoi_Smart extend time selection left from edit cursor">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Time%20selection/phoi_Smart%20extend%20time%20selection%20left%20from%20edit%20cursor.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Smart extend time selection right from edit cursor.lua" type="script" desc="phoi_Smart extend time selection right from edit cursor">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Time%20selection/phoi_Smart%20extend%20time%20selection%20right%20from%20edit%20cursor.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Track">
+    <reapack name="phoi_Blind test between selected tracks by muting.lua" type="script" desc="phoi_Blind test between selected tracks by muting">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Blind%20test%20between%20selected%20tracks%20by%20muting.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Blind test between selected tracks by soloing.lua" type="script" desc="phoi_Blind test between selected tracks by soloing">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Blind%20test%20between%20selected%20tracks%20by%20soloing.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Color tracks by place in folder hierarchy.lua" type="script" desc="phoi_Color tracks by place in folder hierarchy">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Color%20tracks%20by%20place%20in%20folder%20hierarchy.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Duplicate selected tracks retaining only selected items.lua" type="script" desc="phoi_Duplicate selected tracks retaining only selected items">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Duplicate%20selected%20tracks%20retaining%20only%20selected%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Make track color brighter.lua" type="script" desc="phoi_Make track color brighter">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Make%20track%20color%20brighter.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Make track color darker.lua" type="script" desc="phoi_Make track color darker">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Make%20track%20color%20darker.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Select only empty non-parent tracks with no receives.lua" type="script" desc="phoi_Select only empty non-parent tracks with no receives">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Select%20only%20empty%20non-parent%20tracks%20with%20no%20receives.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Select only empty non-parent tracks.lua" type="script" desc="phoi_Select only empty non-parent tracks">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Select%20only%20empty%20non-parent%20tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Select only tracks of selected items.lua" type="script" desc="phoi_Select only tracks of selected items">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Select%20only%20tracks%20of%20selected%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Select only tracks with only mono items out of selected tracks.lua" type="script" desc="phoi_Select only tracks with only mono items out of selected tracks">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Select%20only%20tracks%20with%20only%20mono%20items%20out%20of%20selected%20tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Set all mono tracks to mono pan mode.lua" type="script" desc="phoi_Set all mono tracks to mono pan mode">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Set%20all%20mono%20tracks%20to%20mono%20pan%20mode.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Set reference track.lua" type="script" desc="phoi_Set reference track">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Set%20reference%20track.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Toggle parent or bus send for selected tracks.lua" type="script" desc="phoi_Toggle parent or bus send for selected tracks">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Toggle%20parent%20or%20bus%20send%20for%20selected%20tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Toggle reference.lua" type="script" desc="phoi_Toggle reference">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Toggle%20reference.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Toggle tracks activated.lua" type="script" desc="phoi_Toggle tracks activated">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Toggle%20tracks%20activated.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Toggle tracks hidden and deactivated.lua" type="script" desc="phoi_Toggle tracks hidden and deactivated">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Toggle%20tracks%20hidden%20and%20deactivated.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Toggle width of selected tracks between 0 and 100.lua" type="script" desc="phoi_Toggle width of selected tracks between 0 and 100">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Toggle%20width%20of%20selected%20tracks%20between%200%20and%20100.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Toggle width of selected tracks between 100, 0 and -100.lua" type="script" desc="phoi_Toggle width of selected tracks between 100, 0 and -100">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Toggle%20width%20of%20selected%20tracks%20between%20100,%200%20and%20-100.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Various">
+    <reapack name="phoi_Open ReaScript API in browser.lua" type="script" desc="phoi_Open ReaScript API in browser">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_Open%20ReaScript%20API%20in%20browser.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Repeat last action x times.lua" type="script" desc="phoi_Repeat last action x times">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_Repeat%20last%20action%20x%20times.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Various/phoi_Dropdown menu">
+    <reapack name="phoi_Dropdown menu_Example.lua" type="script" desc="phoi_Dropdown menu_Example">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_Dropdown%20menu/phoi_Dropdown%20menu_Example.lua</source>
+        <source file="phoi_Dropdown menu_data.txt">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_Dropdown%20menu/phoi_Dropdown%20menu_data.txt</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Various/phoi_SmartNudge">
+    <reapack name="phoi_SmartNudge.lua" type="script" desc="phoi_SmartNudge">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.01" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main" file="phoi_SmartNudge_left.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_left.lua</source>
+        <source main="main" file="phoi_SmartNudge_left_strong.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_left_strong.lua</source>
+        <source main="main" file="phoi_SmartNudge_right.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_right.lua</source>
+        <source main="main" file="phoi_SmartNudge_right_strong.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_right_strong.lua</source>
+        <source main="main" file="phoi_SmartNudge_SetParamsFromMultiUserInput.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_SetParamsFromMultiUserInput.lua</source>
+        <source main="main" file="phoi_SmartNudge_SetToDefault.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_SetToDefault.lua</source>
+        <source main="main" file="phoi_SmartNudge_DisplayCurrentSettings.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_DisplayCurrentSettings.lua</source>
+        <source file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_val_5.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_param_leftTrim.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_val_10.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_param_rightEdge.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_val_1.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_unit_frames.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_unit_bars.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_param_editCursor.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_val_500.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_val_userInputNumber.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_param_crossfade.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_copies_userInputNumber.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_param_contents.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_param_position.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_param_envelopepoints.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_param_duplicate.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_val_100.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_val_250.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_unit_beats.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_unit_itemSels.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_val_50.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_unit_ms.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_unit_s.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_unit_samples.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_unit_grid.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+        <source main="main" file="phoi_SmartNudge_Set_/phoi_SmartNudge_Set_val_25.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_SmartNudge/phoi_SmartNudge_Set_/phoi_SmartNudge_Set_.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="View">
+    <reapack name="phoi_Scroll to first track in mixer if mixer is open, otherwise in arrange.lua" type="script" desc="phoi_Scroll to first track in mixer if mixer is open, otherwise in arrange">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/View/phoi_Scroll%20to%20first%20track%20in%20mixer%20if%20mixer%20is%20open,%20otherwise%20in%20arrange.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Scroll to last track in mixer if open, otherwise in arrange.lua" type="script" desc="phoi_Scroll to last track in mixer if open, otherwise in arrange">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/View/phoi_Scroll%20to%20last%20track%20in%20mixer%20if%20open,%20otherwise%20in%20arrange.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Scroll track left in mixer if mixer is open, otherwise up in arrange.lua" type="script" desc="phoi_Scroll track left in mixer if mixer is open, otherwise up in arrange">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/View/phoi_Scroll%20track%20left%20in%20mixer%20if%20mixer%20is%20open,%20otherwise%20up%20in%20arrange.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Scroll track right in mixer if mixer is open, otherwise down in arrange.lua" type="script" desc="phoi_Scroll track right in mixer if mixer is open, otherwise down in arrange">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/View/phoi_Scroll%20track%20right%20in%20mixer%20if%20mixer%20is%20open,%20otherwise%20down%20in%20arrange.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="View/phoi_ZoomPreset">
+    <reapack name="phoi_ZoomPresetMain.lua" type="script" desc="phoi_ZoomPresetMain">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source>https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/View/phoi_ZoomPreset/phoi_ZoomPresetMain.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_ZoomPresetMain_0.005.lua" type="script" desc="phoi_ZoomPresetMain_0.005">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/View/phoi_ZoomPreset/phoi_ZoomPresetMain_0.005.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_ZoomPresetMIDI.lua" type="script" desc="phoi_ZoomPresetMIDI">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source>https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/View/phoi_ZoomPreset/phoi_ZoomPresetMIDI.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_ZoomPresetMIDI_4.lua" type="script" desc="phoi_ZoomPresetMIDI_4">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source>https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/View/phoi_ZoomPreset/phoi_ZoomPresetMIDI_4.lua</source>
+      </version>
+    </reapack>
+  </category>
   <metadata>
     <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 ReaPack Repository Template\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 A template for GitHub-hosted ReaPack repositories with automated {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index"}}{\fldrslt{\ul
-reapack-index
-}}}
- running from GitHub Actions.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Replace the name of the repository in {\field{\*\fldinst{HYPERLINK "/index.xml"}}{\fldrslt{\ul
-index.xml
-}}}
- when using this template. This will be the name shown in ReaPack.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \f1 <index version="1" name="Name of your repository here">\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Replace the contents of this file ({\field{\*\fldinst{HYPERLINK "/README.md"}}{\fldrslt{\ul
-README.md
-}}}
-). This will be the text shown when using ReaPack's "About this repository" feature.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 reapack-index looks for package files in subfolders. The folder tree represents the package categories shown in ReaPack.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Each package file is expected to begin with a metadata header. See {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation"}}{\fldrslt{\ul
-Packaging Documentation
-}}}
- on reapack-index's wiki.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 The URL to import in ReaPack is {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-repository-template/raw/master/index.xml"}}{\fldrslt{\ul
-https://github.com/{\f1 <your username>}/{\f1 <repository name>}/raw/master/index.xml
-}}}
-.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 phoi_ReaScripts\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This repository contains my public scripts for Reaper. I hope they will be useful to people.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 Installation instructions:\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Open Reaper (!).\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Go to Extensions -> ReaPack -> Manage repositories...\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Click on Import/export -> Import repositories...\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Copy the following URL into the text field: https://github.com/poulhoi/phoi_ReaScripts/raw/master/index.xml\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Hit 'OK'.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Tested only on MacOS Mojave for now, but everything should work on Windows and possibly Linux as well. Feel free to reach out to me on the Reaper forums if you have questions or problems: https://forum.cockos.com/member.php?u=140016\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Cheers,\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Poul\par}
 }
 ]]></description>
   </metadata>
