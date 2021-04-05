@@ -1,0 +1,34 @@
+@noindex-- this line can be safely ignored and deleted
+
+[Example]
+0=40760 Dynamic Split Items
+0=41827 Crossfade Editor
+0=40078 Mixer
+0=40906 Track Manager
+0=40326 Region/Marker Manager
+0=40271 FX Browser
+0=-1
+0=-2 File windows
+0=40015 Render
+0=40929 Queued Renders
+0=41076 Batch File/Item Converter
+0=-3
+0=-1
+0=-2 Project Mangement Windows
+0=-2 One sub-menu
+0=41157 Project Bay
+0=50124 Media Explorer
+0=40422 Sets (screen/track/item sets)
+0=-3
+0=-2 Another sub-menu
+0=40240 Performance Meter
+0=40268 Navigator
+0=50125 Video
+0=40378 Big Clock
+0=-3
+0=-3
+0=-1
+0=40251 Routing Matrix
+0=40768 Track Grouping Matrix
+0=41888 Region Render Matrix
+0=42031 Track Wiring

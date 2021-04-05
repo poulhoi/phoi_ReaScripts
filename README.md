@@ -1,23 +1,17 @@
-# ReaPack Repository Template
+# phoi_ReaScripts
 
-A template for GitHub-hosted ReaPack repositories with automated
-[reapack-index](https://github.com/cfillion/reapack-index)
-running from GitHub Actions.
+This repository contains my public scripts for Reaper. I hope they will be useful to people.
 
-Replace the name of the repository in [index.xml](/index.xml) when using this template.
-This will be the name shown in ReaPack.
+### Installation instructions:
+- Open Reaper (!).
+- Go to Extensions -> ReaPack -> Manage repositories...
+- Click on Import/export -> Import repositories...
+- Copy the following URL into the text field: https://github.com/poulhoi/phoi_ReaScripts/raw/master/index.xml
+- Hit 'OK'.
 
-```xml
-<index version="1" name="Name of your repository here">
-```
+Tested only on MacOS Mojave for now, but everything should work on Windows and possibly Linux as well.
+Feel free to reach out to me on the Reaper forums if you have questions or problems: https://forum.cockos.com/member.php?u=140016
 
-Replace the contents of this file ([README.md](/README.md)).
-This will be the text shown when using ReaPack's "About this repository" feature.
+Cheers,
 
-reapack-index looks for package files in subfolders.
-The folder tree represents the package categories shown in ReaPack.
-
-Each package file is expected to begin with a metadata header.
-See [Packaging Documentation](https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation) on reapack-index's wiki.
-
-The URL to import in ReaPack is [https://github.com/`<your username>`/`<repository name>`/raw/master/index.xml](https://github.com/cfillion/reapack-repository-template/raw/master/index.xml).
+Poul
