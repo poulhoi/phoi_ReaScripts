@@ -3,8 +3,9 @@
 @author Poul Høi
 @links 
 	Repository https://github.com/poulhoi/phoi_ReaScripts
-@version 1.0
+@version 1.01
 @changelog Initial release
++ fix scriptName error
 --]]
 
 --[[
@@ -21,7 +22,7 @@ local fileName
 local section
 local cmd
 _, fileName, section, cmd, _, _, _ = reaper.get_action_context()
-local scriptName = "fileName:match(([^/\\]+)%.lua$") -- generate default scriptName from file
+local scriptName = fileName:match("([^/\\]+)%.lua$") -- generate default scriptName from file
 
 
 --FUNCTIONS FOR DEBUG

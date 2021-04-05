@@ -3,11 +3,12 @@
 @author Poul Høi
 @links 
 	Repository https://github.com/poulhoi/phoi_ReaScripts
-@version 1.0
+@version 1.01
 @changelog Initial release
++ fix scriptName error
 --]]
 
-local scriptName = ""Go to start of time selection or selected items""
+local scriptName = "Go to start of time selection or selected items"
 
 function main()
 	reaper.Undo_BeginBlock()
