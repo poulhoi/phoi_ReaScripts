@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="phoi_ReaScripts" commit="beb7b280f5f2e9bc40154c3acfb5bd8bb5bcee59">
+<index version="1" name="phoi_ReaScripts" commit="b068f279139b48b79be0f4752a25645bfafe3a83">
   <category name="Automation">
     <reapack name="phoi_Toggle selected tracks between automation trim-read and latch preview.lua" type="script" desc="phoi_Toggle selected tracks between automation trim-read and latch preview">
       <metadata>
@@ -77,6 +77,10 @@
       <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
         <changelog><![CDATA[Initial release]]></changelog>
         <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Edit%20cursor/phoi_Move%20edit%20cursor%20to%20first%20of%20selected%20items.lua</source>
+      </version>
+      <version name="1.01" author="Poul Høi" time="2021-04-20T06:38:34Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/b068f279139b48b79be0f4752a25645bfafe3a83/Edit%20cursor/phoi_Move%20edit%20cursor%20to%20first%20of%20selected%20items.lua</source>
       </version>
     </reapack>
   </category>
@@ -192,6 +196,10 @@
         <changelog><![CDATA[Initial release]]></changelog>
         <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Item/phoi_Normalize%20loudness%20of%20selected%20items%20with%20common%20gain%20per%20track%20and%20maximum%20peak%20value.lua</source>
       </version>
+      <version name="1.01" author="Poul Høi" time="2021-04-20T06:38:34Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/b068f279139b48b79be0f4752a25645bfafe3a83/Item/phoi_Normalize%20loudness%20of%20selected%20items%20with%20common%20gain%20per%20track%20and%20maximum%20peak%20value.lua</source>
+      </version>
     </reapack>
     <reapack name="phoi_Rename item with filepath and full name from input.lua" type="script" desc="phoi_Rename item with filepath and full name from input">
       <metadata>
@@ -209,6 +217,24 @@
       <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
         <changelog><![CDATA[Initial release]]></changelog>
         <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Item/phoi_Reposition%20items%20-%20advanced.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Select all items after cursor.lua" type="script" desc="phoi_Select all items after cursor">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-20T06:38:34Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/b068f279139b48b79be0f4752a25645bfafe3a83/Item/phoi_Select%20all%20items%20after%20cursor.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Select all items before cursor.lua" type="script" desc="phoi_Select all items before cursor">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-20T06:38:34Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/b068f279139b48b79be0f4752a25645bfafe3a83/Item/phoi_Select%20all%20items%20before%20cursor.lua</source>
       </version>
     </reapack>
     <reapack name="phoi_Select only mono items on selected tracks.lua" type="script" desc="phoi_Select only mono items on selected tracks">
@@ -336,6 +362,10 @@
         <changelog><![CDATA[Initial release]]></changelog>
         <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/beb7b280f5f2e9bc40154c3acfb5bd8bb5bcee59/Render/phoi_Create%20sampled%20notes%20from%20selected%20midi%20item.lua</source>
       </version>
+      <version name="1.02" author="Poul Høi" time="2021-04-20T06:38:34Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/b068f279139b48b79be0f4752a25645bfafe3a83/Render/phoi_Create%20sampled%20notes%20from%20selected%20midi%20item.lua</source>
+      </version>
     </reapack>
   </category>
   <category name="Render/phoi_Render area of selected tracks, muting items">
@@ -353,6 +383,17 @@
         <source main="main" file="phoi_Render selected area of tracks, muting items - mono, pre-fader.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Render/phoi_Render%20area%20of%20selected%20tracks,%20muting%20items/phoi_Render%20selected%20area%20of%20tracks,%20muting%20items%20-%20mono,%20pre-fader.lua</source>
         <source main="main" file="phoi_Render selected area of tracks, muting items - mono, post-fader.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Render/phoi_Render%20area%20of%20selected%20tracks,%20muting%20items/phoi_Render%20selected%20area%20of%20tracks,%20muting%20items%20-%20mono,%20post-fader.lua</source>
         <source main="main" file="phoi_Render stereo mixdown of selected area of tracks, muting items.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Render/phoi_Render%20area%20of%20selected%20tracks,%20muting%20items/phoi_Render%20stereo%20mixdown%20of%20selected%20area%20of%20tracks,%20muting%20items.lua</source>
+      </version>
+      <version name="1.011" author="Poul Høi" time="2021-04-20T06:38:34Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source>https://github.com/poulhoi/phoi_ReaScripts/raw/b068f279139b48b79be0f4752a25645bfafe3a83/Render/phoi_Render%20area%20of%20selected%20tracks,%20muting%20items/phoi_Render%20selected%20area%20of%20tracks,%20muting%20items.lua</source>
+        <source main="main" file="phoi_Render selected area of tracks, muting items - stereo, pre-fader.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/b068f279139b48b79be0f4752a25645bfafe3a83/Render/phoi_Render%20area%20of%20selected%20tracks,%20muting%20items/phoi_Render%20selected%20area%20of%20tracks,%20muting%20items%20-%20stereo,%20pre-fader.lua</source>
+        <source main="main" file="phoi_Render selected area of tracks, muting items - stereo, post-fader.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/b068f279139b48b79be0f4752a25645bfafe3a83/Render/phoi_Render%20area%20of%20selected%20tracks,%20muting%20items/phoi_Render%20selected%20area%20of%20tracks,%20muting%20items%20-%20stereo,%20post-fader.lua</source>
+        <source main="main" file="phoi_Render selected area of tracks, muting items - multichannel, pre-fader.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/b068f279139b48b79be0f4752a25645bfafe3a83/Render/phoi_Render%20area%20of%20selected%20tracks,%20muting%20items/phoi_Render%20selected%20area%20of%20tracks,%20muting%20items%20-%20multichannel,%20pre-fader.lua</source>
+        <source main="main" file="phoi_Render selected area of tracks, muting items - multichannel, post-fader.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/b068f279139b48b79be0f4752a25645bfafe3a83/Render/phoi_Render%20area%20of%20selected%20tracks,%20muting%20items/phoi_Render%20selected%20area%20of%20tracks,%20muting%20items%20-%20multichannel,%20post-fader.lua</source>
+        <source main="main" file="phoi_Render selected area of tracks, muting items - mono, pre-fader.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/b068f279139b48b79be0f4752a25645bfafe3a83/Render/phoi_Render%20area%20of%20selected%20tracks,%20muting%20items/phoi_Render%20selected%20area%20of%20tracks,%20muting%20items%20-%20mono,%20pre-fader.lua</source>
+        <source main="main" file="phoi_Render selected area of tracks, muting items - mono, post-fader.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/b068f279139b48b79be0f4752a25645bfafe3a83/Render/phoi_Render%20area%20of%20selected%20tracks,%20muting%20items/phoi_Render%20selected%20area%20of%20tracks,%20muting%20items%20-%20mono,%20post-fader.lua</source>
+        <source main="main" file="phoi_Render stereo mixdown of selected area of tracks, muting items.lua">https://github.com/poulhoi/phoi_ReaScripts/raw/b068f279139b48b79be0f4752a25645bfafe3a83/Render/phoi_Render%20area%20of%20selected%20tracks,%20muting%20items/phoi_Render%20stereo%20mixdown%20of%20selected%20area%20of%20tracks,%20muting%20items.lua</source>
       </version>
     </reapack>
   </category>
@@ -651,48 +692,6 @@
       <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
         <changelog><![CDATA[Initial release]]></changelog>
         <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/View/phoi_Scroll%20track%20right%20in%20mixer%20if%20mixer%20is%20open,%20otherwise%20down%20in%20arrange.lua</source>
-      </version>
-    </reapack>
-  </category>
-  <category name="View/phoi_ZoomPreset">
-    <reapack name="phoi_ZoomPresetMain.lua" type="script" desc="phoi_ZoomPresetMain">
-      <metadata>
-        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
-      </metadata>
-      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
-        <changelog><![CDATA[Initial release]]></changelog>
-        <source>https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/View/phoi_ZoomPreset/phoi_ZoomPresetMain.lua</source>
-      </version>
-    </reapack>
-    <reapack name="phoi_ZoomPresetMain_0.005.lua" type="script" desc="phoi_ZoomPresetMain_0.005">
-      <metadata>
-        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
-      </metadata>
-      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
-        <changelog><![CDATA[Initial release]]></changelog>
-        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/View/phoi_ZoomPreset/phoi_ZoomPresetMain_0.005.lua</source>
-      </version>
-      <version name="1.01" author="Poul Høi" time="2021-04-05T09:37:52Z">
-        <changelog><![CDATA[Initial release]]></changelog>
-        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/8977f97d359e27dd7bc6ace2228495d43dd92978/View/phoi_ZoomPreset/phoi_ZoomPresetMain_0.005.lua</source>
-      </version>
-    </reapack>
-    <reapack name="phoi_ZoomPresetMIDI.lua" type="script" desc="phoi_ZoomPresetMIDI">
-      <metadata>
-        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
-      </metadata>
-      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
-        <changelog><![CDATA[Initial release]]></changelog>
-        <source>https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/View/phoi_ZoomPreset/phoi_ZoomPresetMIDI.lua</source>
-      </version>
-    </reapack>
-    <reapack name="phoi_ZoomPresetMIDI_4.lua" type="script" desc="phoi_ZoomPresetMIDI_4">
-      <metadata>
-        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
-      </metadata>
-      <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
-        <changelog><![CDATA[Initial release]]></changelog>
-        <source>https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/View/phoi_ZoomPreset/phoi_ZoomPresetMIDI_4.lua</source>
       </version>
     </reapack>
   </category>
