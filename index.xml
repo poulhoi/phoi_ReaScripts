@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="phoi_ReaScripts" commit="b068f279139b48b79be0f4752a25645bfafe3a83">
+<index version="1" name="phoi_ReaScripts" commit="15b220b4f307f01f821ffe90269fd25de71693d9">
   <category name="Automation">
     <reapack name="phoi_Toggle selected tracks between automation trim-read and latch preview.lua" type="script" desc="phoi_Toggle selected tracks between automation trim-read and latch preview">
       <metadata>
@@ -692,6 +692,44 @@
       <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
         <changelog><![CDATA[Initial release]]></changelog>
         <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/View/phoi_Scroll%20track%20right%20in%20mixer%20if%20mixer%20is%20open,%20otherwise%20down%20in%20arrange.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="View/phoi_ZoomPreset">
+    <reapack name="phoi_ZoomPresetMain.lua" type="script" desc="phoi_ZoomPresetMain">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-20T06:43:38Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source>https://github.com/poulhoi/phoi_ReaScripts/raw/15b220b4f307f01f821ffe90269fd25de71693d9/View/phoi_ZoomPreset/phoi_ZoomPresetMain.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_ZoomPresetMain_0.005.lua" type="script" desc="phoi_ZoomPresetMain_0.005">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.01" author="Poul Høi" time="2021-04-20T06:43:38Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/15b220b4f307f01f821ffe90269fd25de71693d9/View/phoi_ZoomPreset/phoi_ZoomPresetMain_0.005.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_ZoomPresetMIDI.lua" type="script" desc="phoi_ZoomPresetMIDI">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-20T06:43:38Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source>https://github.com/poulhoi/phoi_ReaScripts/raw/15b220b4f307f01f821ffe90269fd25de71693d9/View/phoi_ZoomPreset/phoi_ZoomPresetMIDI.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_ZoomPresetMIDI_4.lua" type="script" desc="phoi_ZoomPresetMIDI_4">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-04-20T06:43:38Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source>https://github.com/poulhoi/phoi_ReaScripts/raw/15b220b4f307f01f821ffe90269fd25de71693d9/View/phoi_ZoomPreset/phoi_ZoomPresetMIDI_4.lua</source>
       </version>
     </reapack>
   </category>
