@@ -3,8 +3,9 @@
 @author Poul Høi
 @links 
 	Repository https://github.com/poulhoi/phoi_ReaScripts
-@version 1.0
+@version 1.01
 @changelog Initial release
++ check for SWS
 --]]
 
 -- USER CONFIG
@@ -109,7 +110,31 @@ function main()
 	reaper.Undo_EndBlock(scriptName, -1)
 end
 
-reaper.PreventUIRefresh(1)
-main()
-reaper.PreventUIRefresh(-1)
-reaper.UpdateArrange()
+-- Borrowed these from X-Raym
+function Open_URL(url)
+  if not OS then local OS = reaper.GetOS() end
+  if OS=="OSX32" or OS=="OSX64" then
+    os.execute("start \"\" \"".. url .. "\"")
+   else
+    os.execute("start ".. url)
+  end
+end
+
+function CheckSWS()
+  if reaper.NamedCommandLookup("_BR_VERSION_CHECK") == 0 then 
+    local retval = reaper.ShowMessageBox("SWS extension is required by this script.\nHowever, it doesn't seem to be present for this REAPER installation.\n\nDo you want to download it now ?", "Warning", 1)
+    if retval == 1 then
+      Open_URL("http://www.sws-extension.org/download/pre-release/")
+    end
+  else
+    return true
+  end
+end
+
+local sws = CheckSWS()
+if sws then
+	reaper.PreventUIRefresh(1)
+	main()
+	reaper.PreventUIRefresh(-1)
+	reaper.UpdateArrange()	
+end

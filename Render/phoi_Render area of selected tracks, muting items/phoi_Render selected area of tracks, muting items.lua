@@ -3,9 +3,10 @@
 @author Poul Høi
 @links 
 	Repository https://github.com/poulhoi/phoi_ReaScripts
-@version 1.01
+@version 1.011
 @changelog Initial release
 + fix metadata
++ credited X-Raym for SWS-checking functions
 @provides
 	[nomain] .
 	[main] phoi_Render selected area of tracks, muting items - stereo, pre-fader.lua
@@ -108,7 +109,7 @@ function main()
 	reaper.Undo_EndBlock(scriptName, -1)
 end
 
-
+-- Borrowed these from X-Raym.
 function Open_URL(url)
   if not OS then local OS = reaper.GetOS() end
   if OS=="OSX32" or OS=="OSX64" then

@@ -3,9 +3,10 @@
 @author Poul Høi
 @links 
 	Repository https://github.com/poulhoi/phoi_ReaScripts
-@version 1.013
+@version 1.014
 @changelog Initial release
 + fix metadata packaging
++ credited X-Raym for SWS-checking functions
 @noindex
 --]]
 
@@ -116,6 +117,7 @@ function main()
 	reaper.Undo_EndBlock(scriptName, -1)
 end
 
+-- Borrowed these from X-Raym.
 function Open_URL(url)
   if not OS then local OS = reaper.GetOS() end
   if OS=="OSX32" or OS=="OSX64" then

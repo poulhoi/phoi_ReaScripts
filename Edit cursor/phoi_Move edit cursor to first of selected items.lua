@@ -3,8 +3,9 @@
 @author Poul Høi
 @links 
 	Repository https://github.com/poulhoi/phoi_ReaScripts
-@version 1.0
+@version 1.01
 @changelog Initial release
++ fix error when no item selected
 --]]
 
 -- NAME
@@ -27,6 +28,7 @@ function main()
 			first_item_pos = math.min(first_item_pos, item_pos)
 		end
 	end
+	if not first_item_pos then return end
 	reaper.SetEditCurPos2(0, first_item_pos, true, false)
 	reaper.Undo_EndBlock(scriptName, -1)
 end
