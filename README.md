@@ -6,6 +6,7 @@ This repository contains my public scripts for Reaper. I hope they will be usefu
 
 I recommend installing these scripts through [ReaPack](https://reapack.com).
 
+- Install ReaPack if you haven't already.
 - Open Reaper (!).
 - Go to Extensions -> ReaPack -> Manage repositories...
 - Click on Import/export -> Import repositories...
