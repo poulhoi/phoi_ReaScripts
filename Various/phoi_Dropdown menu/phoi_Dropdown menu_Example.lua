@@ -3,10 +3,11 @@
 @author Poul Høi
 @links 
 	Repository https://github.com/poulhoi/phoi_ReaScripts
-@version 1.0
+@version 1.01
 @provides
 	phoi_Dropdown menu_data.txt
 @changelog Initial release
++ Rewrite documentation
 --]]
 
 --[[
@@ -15,11 +16,11 @@
 Based heavily on bFooz's Dropdown menu script (https://forums.cockos.com/showthread.php?t=210482)
 
 Creates a dropdown toolbar from a textfile.
-File must be formatted like reaper-menu.ini, be named the same as the variable menuDataFileName and located in the same folder as this script
-Toolbars are named within the data file and are called by this script after the last underscore of the script name
-For instance, "phoi_Dropdown menu_Toolbar 1" will look for a toolbar within "phoi_Dropdown menu_data.txt" named "Toolbar 1"
-The name of a toolbar is the header enclosed in [], not the "title" of the toolbar. 
-That means both icons and titles can safely be deleted from the menu data file
+This text file must be formatted like reaper-menu.ini, be named the same as the variable menuDataFileName in this script and located in the same folder as this script.
+Menus are named within the data file; to open a menu of a specific name, duplicate this file (phoi_Dropdown menu_Example.lua) and change the name after the last underscore the name of the menu you want to call.
+For instance, a script named "phoi_Dropdown menu_Toolbar 1.lua" will look for a menu within "phoi_Dropdown menu_data.txt" (or whatever the variable menuDataFileName is set to) named "Toolbar 1"
+The name of a menu is the header enclosed in [], not the "title" of the toolbar.
+That means both icons and titles can safely be deleted from the menu data file.
 
 	IMPORTANT NOTE 1: The toolbar name cannot contain underscores.
 	
@@ -27,9 +28,10 @@ That means both icons and titles can safely be deleted from the menu data file
 	Otherwise, it's the main context
 
 In practice:
-- Create a toolbar in reaper.
+- Create a toolbar in reaper and populate it with actions.
 - Export it. Copy the contents of this newly exported .ReaperMenu file and paste it into the menu data file.
-- This script will now launch a dropdown menu formatted according to the toolbar, wthiout using up a toolbar.
+- Duplicate this script file and name it "phoi_Dropdown menu_Menuname.lua", replacing "Menuname" with the header of your new menu.
+- This script will now launch a dropdown menu formatted according to the toolbar, without using up a toolbar.
 
 -- TIPS FOR EDITING THE MENU DATA FILE --
 
@@ -38,7 +40,7 @@ No empty lines within each menu section. Empty lines will stop the menu from bei
 For each line, the script looks at everything after the "=" sign. 
 That means that the "item_0" etc. portions do not matter, so actions can easily be inserted.
 
-	HOWEVER: bugs can occur for some reason if there is no text before = sign. So start every line with '0=', for example.
+	HOWEVER: bugs can occur if there is no text before = sign. So start every line with '0=', for example.
 
 Also, all text after the space following the action ID will be the menu entry, so that's also easily edited.
 
