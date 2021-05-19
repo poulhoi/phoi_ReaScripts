@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="phoi_ReaScripts" commit="933778b368c48232b95ffd780dfa96726a61e3f0">
+<index version="1" name="phoi_ReaScripts" commit="17c3f12537475e299d152756f07e3c83d9ec3478">
   <category name="Automation">
     <reapack name="phoi_Toggle selected tracks between automation trim-read and latch preview.lua" type="script" desc="phoi_Toggle selected tracks between automation trim-read and latch preview">
       <metadata>
@@ -648,6 +648,11 @@
         <changelog><![CDATA[Initial release]]></changelog>
         <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_Dropdown%20menu/phoi_Dropdown%20menu_Example.lua</source>
         <source file="phoi_Dropdown menu_data.txt">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Various/phoi_Dropdown%20menu/phoi_Dropdown%20menu_data.txt</source>
+      </version>
+      <version name="1.01" author="Poul Høi" time="2021-05-19T08:44:52Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/17c3f12537475e299d152756f07e3c83d9ec3478/Various/phoi_Dropdown%20menu/phoi_Dropdown%20menu_Example.lua</source>
+        <source file="phoi_Dropdown menu_data.txt">https://github.com/poulhoi/phoi_ReaScripts/raw/17c3f12537475e299d152756f07e3c83d9ec3478/Various/phoi_Dropdown%20menu/phoi_Dropdown%20menu_data.txt</source>
       </version>
     </reapack>
   </category>
