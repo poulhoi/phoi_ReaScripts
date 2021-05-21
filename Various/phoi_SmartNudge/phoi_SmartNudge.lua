@@ -3,9 +3,10 @@
 @author Poul Høi
 @links 
 	Repository https://github.com/poulhoi/phoi_ReaScripts
-@version 1.01
+@version 1.1
 @changelog Initial release
 + fix metadata
++ include parameter names in singular, fix bug when using fractional values
 @metapackage
 @provides
   [main] phoi_SmartNudge_left.lua 
@@ -176,6 +177,7 @@ end
 function smartNudge(what, unit, val, copies, reverse)
 
   what = what:lower()
+  unit = unit:lower()
   local whats = { -- store value for each name as keys for a table for easier recall of values
     position = 0,
     pos = 0,
@@ -212,8 +214,11 @@ function smartNudge(what, unit, val, copies, reverse)
     gridunit = 2,
     beats = 13,
     bars = 16,
+    bar = 16,
     measures = 16,
+    measure = 16,
     takter = 16,
+    takt = 16,
     samples = 17,
     samps = 17,
     samp = 17,
@@ -223,8 +228,7 @@ function smartNudge(what, unit, val, copies, reverse)
     frams = 18,
     fram = 18,
     itemsels = 21,
-    itemSels = 21,
-    items = 21,
+    items = 21
   }
   
   if whats[what] < 7 then -- if not crossfade nudge
@@ -249,12 +253,12 @@ function main()
   
   local vals = fromCSV(reaper.GetExtState("phoi_SmartNudge", "vals_CSV"), "all")
   local what, unit, val, copies = vals[1], vals[2], vals[3], vals[4]
-  smartNudge(what, unit, val * settingValMult, copies, settingReverse)
+  smartNudge(what, unit, tonumber(val) * settingValMult, copies, settingReverse)
   
 
   if settingValMult ~= 1 then val = tostring(tonumber(val) * settingValMult) end
   local decPoint = val:find("%.")
-  if decPoint then str = str:sub(0, decPoint + 1) end
+  if decPoint then val = val:sub(0, decPoint + 1) end
 
   local s = ''
   if tonumber(val) > 1 and unit:sub(-1) ~= 's' then s = 's' end -- append 's' to unit name if appropriate
