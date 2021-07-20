@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="phoi_ReaScripts" commit="6f9912d8ec415b3d5650166fa5944af68cf6e926">
+<index version="1" name="phoi_ReaScripts" commit="5314d9abff8c5248134c00f02f07cf40de75b2d7">
   <category name="Automation">
     <reapack name="phoi_Toggle selected tracks between automation trim-read and latch preview.lua" type="script" desc="phoi_Toggle selected tracks between automation trim-read and latch preview">
       <metadata>
@@ -501,6 +501,15 @@
       <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
         <changelog><![CDATA[Initial release]]></changelog>
         <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Color%20tracks%20by%20place%20in%20folder%20hierarchy.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Create send from selected tracks (search GUI).lua" type="script" desc="phoi_Create send from selected tracks (search GUI)">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-07-20T18:32:34Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/5314d9abff8c5248134c00f02f07cf40de75b2d7/Track/phoi_Create%20send%20from%20selected%20tracks%20(search%20GUI).lua</source>
       </version>
     </reapack>
     <reapack name="phoi_Duplicate selected tracks retaining only selected items.lua" type="script" desc="phoi_Duplicate selected tracks retaining only selected items">
