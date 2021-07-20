@@ -3,7 +3,7 @@
 @author Poul Høi
 @links 
 	Repository https://github.com/poulhoi/phoi_ReaScripts
-@version 1.0
+@version 1.01
 @changelog Initial release
 --]]
 
@@ -113,7 +113,8 @@ function ShowWindow()
 	end
 
 	for i = 1, #hits do
-		local trackChosen = reaper.ImGui_Button(ctx, trackNames[hits[i]])
+		local prefix = tostring(i):format("%i") .. ": "
+		local trackChosen = reaper.ImGui_Button(ctx, prefix .. trackNames[hits[i]])
 		if trackChosen then
 			local destTrack = tracks[hits[i]]
 			CreateSend(destTrack)
@@ -124,15 +125,30 @@ function ShowWindow()
 		end
 	end
 
-	if reaper.ImGui_IsKeyDown(ctx, 13) then -- if enter is pressed, send to top track
-		local destTrack = tracks[hits[1]]
+	local function CreateSendToHit(x)
+		local destTrack = tracks[hits[x]]
 		CreateSend(destTrack)	
 		if autoClose and not oops then
 			reaper.ImGui_End(ctx)	
 			return false
+		else
+			return true
 		end
 	end
 
+	if reaper.ImGui_IsKeyDown(ctx, 13) then -- if enter is pressed, send to top track
+		local val = CreateSendToHit(1)
+		if not val then return false end
+	end
+	local ctrl = reaper.ImGui_GetKeyMods(ctx) & reaper.ImGui_KeyModFlags_Ctrl()
+	if ctrl > 0 then
+		for i = 49, 57 do -- create send with number keys
+			if reaper.ImGui_IsKeyDown(ctx, i) then
+				local val = CreateSendToHit(i-48)
+				if not val then return false end
+			end
+		end
+	end	
 	if reaper.ImGui_IsKeyDown(ctx, 27) then -- if escape is pressed, close window
 		reaper.ImGui_End(ctx)
 		return false
