@@ -3,8 +3,9 @@
 @author Poul Høi
 @links 
 	Repository https://github.com/poulhoi/phoi_ReaScripts
-@version 1.0
+@version 1.01
 @changelog Initial release
+	+ fixed error when project has no tracks
 --]]
 
 local mixerDist = 12
@@ -25,6 +26,7 @@ end
 function ScrollMixerRight(dist)
 	local t = {}
 	local tr_count = reaper.CountTracks(0)-1
+  	if tr_count < 1 then return end
 	for i = 0, tr_count do
 		local track = reaper.GetTrack(0,i)
 		if track and reaper.IsTrackVisible(track, true) then -- true = MCP, false = TCP 

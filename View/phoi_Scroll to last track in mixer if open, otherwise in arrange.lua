@@ -3,8 +3,9 @@
 @author Poul Høi
 @links 
 	Repository https://github.com/poulhoi/phoi_ReaScripts
-@version 1.0
+@version 1.01
 @changelog Initial release
+	+ fixed error when project has no tracks
 --]]
 
 function ScrollArrangeEnd()
@@ -15,6 +16,7 @@ end
 function ScrollMixerEnd()
 	local dest
 	local tr_count = reaper.CountTracks(0)-1
+  	if tr_count < 1 then return end
 	for i = tr_count, 0, - 1 do
 		local track = reaper.GetTrack(0,i)
 		if track and reaper.IsTrackVisible(track, true) then -- true = MCP, false = TCP 
