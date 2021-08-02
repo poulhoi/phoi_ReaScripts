@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="phoi_ReaScripts" commit="5c9328dc045f7b198c5185efba46c136fe5661c5">
+<index version="1" name="phoi_ReaScripts" commit="dce3cf1bad72402e60134d0bd00ea965a8b2f843">
   <category name="Automation">
     <reapack name="phoi_Toggle selected tracks between automation trim-read and latch preview.lua" type="script" desc="phoi_Toggle selected tracks between automation trim-read and latch preview">
       <metadata>
@@ -742,6 +742,11 @@
         <changelog><![CDATA[Initial release]]></changelog>
         <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/View/phoi_Scroll%20to%20first%20track%20in%20mixer%20if%20mixer%20is%20open,%20otherwise%20in%20arrange.lua</source>
       </version>
+      <version name="1.01" author="Poul Høi" time="2021-08-02T09:35:53Z">
+        <changelog><![CDATA[Initial release
++ fixed error when project has no tracks]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/dce3cf1bad72402e60134d0bd00ea965a8b2f843/View/phoi_Scroll%20to%20first%20track%20in%20mixer%20if%20mixer%20is%20open,%20otherwise%20in%20arrange.lua</source>
+      </version>
     </reapack>
     <reapack name="phoi_Scroll to last track in mixer if open, otherwise in arrange.lua" type="script" desc="phoi_Scroll to last track in mixer if open, otherwise in arrange">
       <metadata>
@@ -750,6 +755,11 @@
       <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
         <changelog><![CDATA[Initial release]]></changelog>
         <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/View/phoi_Scroll%20to%20last%20track%20in%20mixer%20if%20open,%20otherwise%20in%20arrange.lua</source>
+      </version>
+      <version name="1.01" author="Poul Høi" time="2021-08-02T09:35:53Z">
+        <changelog><![CDATA[Initial release
++ fixed error when project has no tracks]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/dce3cf1bad72402e60134d0bd00ea965a8b2f843/View/phoi_Scroll%20to%20last%20track%20in%20mixer%20if%20open,%20otherwise%20in%20arrange.lua</source>
       </version>
     </reapack>
     <reapack name="phoi_Scroll track left in mixer if mixer is open, otherwise up in arrange.lua" type="script" desc="phoi_Scroll track left in mixer if mixer is open, otherwise up in arrange">
@@ -760,6 +770,11 @@
         <changelog><![CDATA[Initial release]]></changelog>
         <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/View/phoi_Scroll%20track%20left%20in%20mixer%20if%20mixer%20is%20open,%20otherwise%20up%20in%20arrange.lua</source>
       </version>
+      <version name="1.01" author="Poul Høi" time="2021-08-02T09:35:53Z">
+        <changelog><![CDATA[Initial release
++ fixed error when project has no tracks]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/dce3cf1bad72402e60134d0bd00ea965a8b2f843/View/phoi_Scroll%20track%20left%20in%20mixer%20if%20mixer%20is%20open,%20otherwise%20up%20in%20arrange.lua</source>
+      </version>
     </reapack>
     <reapack name="phoi_Scroll track right in mixer if mixer is open, otherwise down in arrange.lua" type="script" desc="phoi_Scroll track right in mixer if mixer is open, otherwise down in arrange">
       <metadata>
@@ -768,6 +783,11 @@
       <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
         <changelog><![CDATA[Initial release]]></changelog>
         <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/View/phoi_Scroll%20track%20right%20in%20mixer%20if%20mixer%20is%20open,%20otherwise%20down%20in%20arrange.lua</source>
+      </version>
+      <version name="1.01" author="Poul Høi" time="2021-08-02T09:35:53Z">
+        <changelog><![CDATA[Initial release
++ fixed error when project has no tracks]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/dce3cf1bad72402e60134d0bd00ea965a8b2f843/View/phoi_Scroll%20track%20right%20in%20mixer%20if%20mixer%20is%20open,%20otherwise%20down%20in%20arrange.lua</source>
       </version>
     </reapack>
   </category>
