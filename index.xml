@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="phoi_ReaScripts" commit="dce3cf1bad72402e60134d0bd00ea965a8b2f843">
+<index version="1" name="phoi_ReaScripts" commit="00c4a89f9d44d8274441d9b716c1989ba19e9639">
   <category name="Automation">
     <reapack name="phoi_Toggle selected tracks between automation trim-read and latch preview.lua" type="script" desc="phoi_Toggle selected tracks between automation trim-read and latch preview">
       <metadata>
@@ -523,6 +523,15 @@
       <version name="1.0" author="Poul Høi" time="2021-04-05T09:25:33Z">
         <changelog><![CDATA[Initial release]]></changelog>
         <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/253bc81a0f3de99579dbad661f8d504ff291752c/Track/phoi_Duplicate%20selected%20tracks%20retaining%20only%20selected%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="phoi_Generate tracks from channel list text file.lua" type="script" desc="phoi_Generate tracks from channel list text file">
+      <metadata>
+        <link rel="website" href="https://github.com/poulhoi/phoi_ReaScripts">Repository</link>
+      </metadata>
+      <version name="1.0" author="Poul Høi" time="2021-08-03T19:01:08Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/poulhoi/phoi_ReaScripts/raw/00c4a89f9d44d8274441d9b716c1989ba19e9639/Track/phoi_Generate%20tracks%20from%20channel%20list%20text%20file.lua</source>
       </version>
     </reapack>
     <reapack name="phoi_Make track color brighter.lua" type="script" desc="phoi_Make track color brighter">
