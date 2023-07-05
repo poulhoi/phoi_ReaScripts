@@ -52,7 +52,6 @@ function ShowWindow()
 	local autoCloseSwitch = reaper.ImGui_Checkbox(ctx, 'Auto-close?', autoClose)
 	if autoCloseSwitch then
 		autoClose = not autoClose
-		msg(autoClose)
 	end
 
 	if not oldText then oldText = '' end
