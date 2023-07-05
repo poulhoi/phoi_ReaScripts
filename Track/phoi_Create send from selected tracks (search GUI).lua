@@ -39,8 +39,6 @@ function ShowWindow()
 		ctx = reaper.ImGui_CreateContext('phoi_Send to track', reaper.ImGui_ConfigFlags_None())
 	end
 	local rv, open = nil, true
---  reaper.ImGui_SetNextWindowPos(ctx, 500, 500)
---  reaper.ImGui_SetNextWindowSize(ctx, 500, 440)
 	rv, open = reaper.ImGui_Begin(ctx, 'phoi_Send to track', open, reaper.ImGui_WindowFlags_None())
 	if not rv then return open end
 
